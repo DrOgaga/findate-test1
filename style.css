@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
+/* font-family: 'Nunito', sans-serif; */
+
+@media screen and (max-width: 767px) {
+/* NAV BAR   */
+  .nav-bar {
+    /* background-color: blue; */
+    width: 100%;
+    height: 48px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+  }
+
+  .nav-bar .logo {
+    width: 59px;
+    height: 27px;
+    margin-left: 3%;
+  }
+  .nav-bar i {
+    font-size: 24px;
+    margin-right: 3%;
+    color: #6D64FF;
+  }
+  /* UPPER BACKGROUND */
+
+  .upper-bg {
+    background-image: url(Images/background\ image.png);
+    width: 100%;
+    height: 579px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    
+  }
+  .upper-bg .upper {
+    background: linear-gradient(111.9deg, rgba(255, 102, 133, 0.9) 27.4%, rgba(123, 99, 255, 0.9) 102.41%);
+    width: 100%;
+    height: 100%;
+
+  }
+  /* upper bg lower */
+  .custom-shape-divider-bottom-1664977359 {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: scaleX(-1);
+    
+}
+
+.custom-shape-divider-bottom-1664977359 svg {
+    position: relative;
+    display: block;
+    width: calc(159% + 1.3px);
+    height: 180px;
+   
+}
+
+.custom-shape-divider-bottom-1664977359 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.container .heading {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  height: 100px;
+  margin: 10px 10%;
+  
+}
+.download-stores {
+  /* background-color: darkgreen; */
+  width: 80%;
+  display: inline-flex;
+  margin: 10px 10%;
+  justify-content: space-between;
+  position: absolute;
+  top: 130px;
+
+}
+.download-stores .playstore {
+  background-color: rgba(1, 1, 1, 1);
+  border-radius: 25px;
+  width: 116px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-stores .applestore {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 25px;
+  width: 116px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-stores .logo {
+  width: 24px;
+  height: 24px;
+}
+.download-stores .text {
+  width: 71px;
+  height: 24px;
+}
+.chat-pic {
+  width: 70%;
+  height: 255px;
+  position: absolute;
+  top: 150px;
+  margin: 10px 10%;
+}
+/* MIDDLE CONTENT-FIRTS PART */
+.container .our-special {
+  width: 80%;
+  height: 284px;
+  margin: 5px 10%;
+}
+.container .chat-framemb {
+  width: 90%;
+  height: 837px;
+  margin: 5px 5%;
+}
+ 
+.container .find-love {
+  width: 100%;
+  height: 531px;
+  margin-top: 40px;
+  position: relative;
+  
+}
+.find-love img {
+  width: 100%;
+  height: 100%;
+}
+
+.find-love .fnd-lv {
+  background-color: rgba(248, 71, 122, 1);
+  border-radius: 36px;
+  border: none;
+  width: 45%;
+  height: 43px;
+  position: absolute;
+  top: 200px;
+  left: 27%;
+  color: white;
+  
+}
+}
+
+
+
+
+
+ 
